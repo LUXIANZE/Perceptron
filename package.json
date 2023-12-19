@@ -1,0 +1,35 @@
+{
+  "name": "perceptron-pass-it-on",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/plotly.js": "^2.12.30",
+    "@types/react-plotly.js": "^2.6.3",
+    "antd": "^5.12.0",
+    "plotly.js": "^2.27.1",
+    "react": "^18.2.0",
+    "react-connect-lines": "^0.0.3",
+    "react-dom": "^18.2.0",
+    "react-plotly.js": "^2.6.0",
+    "recharts": "^2.10.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
+}
